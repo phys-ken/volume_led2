@@ -18,4 +18,7 @@
   →Arduinoで描き直す。
 * 変数型にミスがあるか? とりあえずこれでも動きますが、細かいコードの修正を続けています。
 
+[githubのコードはこちら](https://github.com/phys-ken/volume_led2)  
+[github pagesはこちら](https://phys-ken.github.io/volume_led2/README.html)  
+
 2020/4/13
