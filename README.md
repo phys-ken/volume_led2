@@ -3,8 +3,9 @@
 
 # 使用例
 共鳴している透明なパイプにこの装置を入れれば、共鳴の様子を見ることができます。  
+![test](resAnime.gif)
 
-[![](http://img.youtube.com/vi/J2FA-ZiDZbw/0.jpg)](http://www.youtube.com/watch?v=J2FA-ZiDZbw "気柱の共鳴を音で見る")
+[動画はこちら](http://www.youtube.com/watch?v=J2FA-ZiDZbw "気柱の共鳴を音で見る")
 
 
 # 機材
