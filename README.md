@@ -16,7 +16,9 @@
 # 雑感
 * マイコンを覚えて最初に作った実験器具。たかがこれだけのためにESP32を使うのはもったいない。Arduino nanoで十分
   →Arduinoで描き直す。
-* 変数型にミスがあるか? とりあえずこれでも動きますが、細かいコードの修正を続けています。
+* ~~変数型にミスがあるか? とりあえずこれでも動きますが、細かいコードの修正を続けています。~~
+  * 修正できました！Arduinoだと$$ a^b $$ は、pow(a,b)って書くらしいです、知らなかった...。
+
 
 [githubのコードはこちら](https://github.com/phys-ken/volume_led2)  
 [github pagesはこちら](https://phys-ken.github.io/volume_led2/README.html)  
