@@ -31,7 +31,7 @@ void loop()
   sensorValue = 0.9 * presensorValue + 0.1 * sensorValue; // ローパスフィルター適用 0.9はなんとなく。
   presensorValue = sensorValue;                           // 前回値の保存
 
-  sensorValue = map(sensorValue, 0, 1870, 0, 8); //ledLevel 段階に丸める//Ledvalue変数が動かないので、4つ目の引数に8を直接代入
+  sensorValue = map(sensorValue, 0, 1870, 0, ledLevel); //ledLevel 段階に丸める
   Serial.println(sensorValue);                   //シリアルモニタに表示、シリアルプロッタで見るのがおすすめ
 
   ledcWrite(0, sensorValue); //Ledには、200Ωの抵抗を接続  //PMWで出力
