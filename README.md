@@ -12,15 +12,19 @@
 * [ESP32 devkitC](https://akizukidenshi.com/catalog/g/gM-11819/)
 * LED (高輝度だと良い。)
 * [高感度マイクアンプキット](https://akizukidenshi.com/catalog/g/gK-05757/)
+* [スリムロボットケーブル](https://akizukidenshi.com/catalog/g/gP-07456/)
 
-# 雑感
+![回路図](fig/zu.png)
+
+
+# メモ
 * マイコンを覚えて最初に作った実験器具。たかがこれだけのためにESP32を使うのはもったいない。Arduino nanoで十分
   →Arduinoで描き直す。
 * ~~変数型にミスがあるか? とりあえずこれでも動きますが、細かいコードの修正を続けています。~~
-  * 修正できました！Arduinoだと$$ a^b $$ は、pow(a,b)って書くらしいです、知らなかった...。
+  * 修正できました！Arduinoだと aのb乗は、pow(a,b)って書くらしいです、知らなかった...。
 
 
 [githubのコードはこちら](https://github.com/phys-ken/volume_led2)  
 [github pagesはこちら](https://phys-ken.github.io/volume_led2/README.html)  
 
-2020/4/13
+2021/2/28
